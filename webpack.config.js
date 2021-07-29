@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-module.exprts = {
+module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
